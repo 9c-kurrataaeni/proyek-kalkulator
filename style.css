@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .btn {
+    width: 6em;
+    height: 6em;
+    margin: 0.2em;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.8em;
+  }
+  #viewer {
+    width: 25.7em;
+    height: 4em;
+    margin: 0.3em;
+    padding: 0.1em 0.8em;
+  }
+  #main {
+    background: linear-gradient(to right, rgb(106, 127, 197), rgb(78, 77, 146));
+    height: 100%;
+  }
+  form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  td:hover {
+    background: rgba(191, 216, 78, 0.801);
+    border-radius: 0.8em;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 20px;
+  }
